@@ -21,7 +21,7 @@ const apiProcessor = async({ method, url, data, headers }) => {
 
         return {
             status: "error",
-            message: error ? .response ? .data ? .error || error.message,
+            message: error.message,
         };
     }
 };
